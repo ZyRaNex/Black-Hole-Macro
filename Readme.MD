@@ -54,6 +54,7 @@ The data then gets send to the Autohotkey file via Memory mapping.
 To see that each programm is doing each party we are gonna look at them through [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer).
 
 1. Turbohud connection to ThToAhk
+
 Start Process Explorer and look for TurboHUD.exe
 
 ![Process Explorer](https://i.imgur.com/rxisBrq.png)
@@ -68,9 +69,10 @@ Look for dotnet.exe, click on proerties and TCP/IP, it should look like this:
 
 
 If there is no TCP connection:
-
 Make sure Turbo hud is running as administrator.
+
 Make sure ThToAhk is running as administrator (Process name is dotnet.exe), by running visual studio as administrator.
+
 Make sure your firefall isnt blocking the communication (its on port 2206).
 
 2. ThToAhk connection to Autohotkey
@@ -85,4 +87,5 @@ Look for AutoHotkey.exe, scroll down in the lower window and search for sections
 
 
 If there is no Section named \BaseNamedObjects\ThToAhk:
+
 Make sure ThToAhk and Autohotkey are running as administrator.
