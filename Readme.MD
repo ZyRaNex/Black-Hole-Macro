@@ -22,14 +22,14 @@ and press F5
 
 ![ThToAhk F5](https://i.imgur.com/1Ha8Aq8.png)
 
-Make sure its running as administrator by starting visual studio as administrator.
+Make sure its running as administrator by starting Visual Studio as administrator.
 
 ![ThToAhk admin](https://i.imgur.com/Lo9G5Ad.png)
 
 
-Start Turbohud with the ThToAhkAdapter.cs file.
+Start TurboHUD with the ThToAhkAdapter.cs file.
 
-Make a new folder named "Zy" in *Your Turbohud Path*\plugins\Zy and place the "ThToAhkAdapter.cs" File into the folder, then start Turbo hud.
+Make a new folder named "Zy" in *Your TurboHUD Path*\plugins\Zy and place the "ThToAhkAdapter.cs" File into the folder, then start TurboHUD.
 
 If everything is working it should look like this:
 
@@ -52,7 +52,7 @@ Press 7 for small adjustments to the coe timer (in case of lag).
 Press 8 to toggle the macro on or off.
 
 # Troubleshooting
-The way the macro works is that Turbo Hud sends the COE timer to "ThToAhk" via a TCP Client.
+The way the macro works is that TurboHUD sends the COE timer to "ThToAhk" via a TCP Client.
 
 The data then gets send to the Autohotkey file via Memory mapping.
 
@@ -60,7 +60,7 @@ The data then gets send to the Autohotkey file via Memory mapping.
 
 To see that each program is doing each party we are gonna look at them through [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer).
 
-1. Turbohud connection to ThToAhk
+1. TurboHUD connection to ThToAhk
 
 Start Process Explorer and look for TurboHUD.exe
 
@@ -78,7 +78,8 @@ It should look like this:
 
 
 If there is no TCP connection:
-Make sure Turbo hud is running as administrator.
+
+Make sure TurboHUD is running as administrator.
 
 Make sure ThToAhk is running as administrator (Process name is dotnet.exe), by running Visual Studio as administrator.
 
