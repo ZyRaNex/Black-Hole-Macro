@@ -89,7 +89,7 @@ Make sure your firewall isnt blocking the communication (its on port 2206).
 
 Look for dotnet.exe, scroll down in the lower window and search for sections, it should look like this:
 
-![ThToAhk Section](https://i.imgur.com/A2QHQ31.png)
+![ThToAhk Section](https://i.imgur.com/EzFp0iG.png)
 
 Look for AutoHotkey.exe, scroll down in the lower window and search for sections, it should look like this:
 
